@@ -53,6 +53,13 @@ And then install the new dependency with `composer update pug-more/magento-itali
 
 Run `modman clone git@github.com:pug-more/magento_italia.git`.
 
+Email templates customizations
+------------------------------
+
+Probably you may need to customize e-mail templates for your specific project but if you install the extension with
+Composer or Modman you'll find that all templates are symlinked so you can't customize them. To do so we suggest you to
+use [Yireo_EmailOverride](https://github.com/yireo/Yireo_EmailOverride) extension that allows to customize e-mail
+templates at theme level.
 
 Support
 -------
@@ -68,9 +75,7 @@ Please do it (especially for translations), so we can all take advantage of open
 Developers
 ----------
 Francesco Marangi ([@fmarangi](https://twitter.com/fmarangi))
-
 Alessandro Ronchi ([@aleron75](https://twitter.com/aleron75))
-
 Manuele Menozzi ([@mmenozzi](https://twitter.com/mmenozzi))
 
 License
