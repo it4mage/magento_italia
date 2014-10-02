@@ -1,20 +1,12 @@
 PUG MoRE Italy Setup
 =====================
-This is a short description of what the extension does.
+Italian localization for Magento.
 
-Facts
------
-- version: 0.1.0
-- extension key: Company_ExampleExtension
-- [extension on Magento Connect](http://www.magentocommerce.com/magento-connect/company-exampleextension-1234.html)
-- Magento Connect 1.0 extension key: magento-community/Company_ExampleExtension
-- Magento Connect 2.0 extension key: http://connect20.magentocommerce.com/community/Company_ExampleExtension
-- [extension on GitHub](https://github.com/company/Company_ExampleExtension)
-- [direct download link](http://connect.magentocommerce.com/community/get/Company_ExampleExtension-0.1.0.tgz)
 
 Description
 -----------
-This paragraph describes what the extension does.
+Italian localization for Magento: translations and regions dictionary (province).
+Please, use it on your Magento projects with Composer and improve it with our contribution process (see Contributing).
 
 Requirements
 ------------
@@ -29,18 +21,49 @@ Compatibility
 
 Installation Instructions
 -------------------------
-1. Install the extension via Magento Connect with the key shown above or copy all the files into your document root.
-2. Clear the cache, logout from the admin panel and then login again.
-3. Configure and activate the extension under System - Configuration - Company - Example Extension.
-4. ...
+Installation is possible in two different ways.
+
+**Composer and [Magento Composer Installer](https://github.com/magento-hackathon/magento-composer-installer) (preferred way)**
+
+Add the dependency to your `composer.json` file. Like this example:
+```
+{
+    ...
+    "require": {
+        ...
+        "pug-more/magento-italian-extension": "dev-master"
+    },
+    ...
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        },
+        ...
+        {
+            "type": "vcs",
+            "url":  "git@github.com:pug-more/magento_italia.git"
+        }
+    ]
+}
+```
+And then install the new dependency with `composer update pug-more/magento-italian-extension`.
+
+**[Modman](https://github.com/colinmollenhour/modman)**
+
+Run `modman clone git@github.com:pug-more/magento_italia.git`.
+
 
 Support
 -------
-If you have any issues with this extension, open an issue on [GitHub](https://github.com/company/Company_ExampleExtension/issues).
+If you have any issues with this extension, open an issue on [GitHub](https://github.com/pug-more/magento_italia/issues).
 
 Contribution
 ------------
-Any contribution is highly appreciated. The best way to contribute code is to open a [pull request on GitHub](https://help.github.com/articles/using-pull-requests).
+Any contribution is highly appreciated.
+You can fork the repository at https://github.com/pug-more/magento_italia and use your own fork in your project (see [Composer documentation](https://getcomposer.org/doc/05-repositories.md#loading-a-package-from-a-vcs-repository) for this).
+When you're ready to submit your changes open a [pull request on GitHub](https://help.github.com/articles/using-pull-requests) with your fork.
+Please do it (especially for translations) so we can all take advantage of open source community work.
 
 Developers
 ----------
@@ -49,6 +72,9 @@ Francesco Marangi
 
 Alessandro Ronchi   
 [@aleron75](https://twitter.com/aleron75)
+
+Manuele Menozzi
+[@mmenozzi](https://twitter.com/mmenozzi)
 
 License
 -------

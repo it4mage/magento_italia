@@ -1,0 +1,28 @@
+{
+    "name": "pug-more/magento-italian-extension",
+    "type": "magento-module",
+    "license":"OSL-3.0",
+    "authors":[
+        {
+            "name":"Alessandro Ronchi",
+            "email":"aleron75@gmail.com"
+        },
+        {
+            "name":"Francesco Marangi",
+            "email":""
+        },
+        {
+            "name":"Manuele Menozzi",
+            "email":"manuele.menozzi@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
