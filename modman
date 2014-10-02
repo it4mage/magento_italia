@@ -1,5 +1,5 @@
 src/app/etc/modules/PugMoRe_Italia.xml              app/etc/modules/PugMoRe_Italia.xml
 src/app/code/community/PugMoRe/Italia/              app/code/community/PugMoRe/Italia/
-src/app/locale/it_IT/template/email/sales/*         app/locale/it_IT/template/email/sales/
-src/app/locale/it_IT/template/email/*               app/locale/it_IT/template/email/
 src/app/locale/it_IT/*                              app/locale/it_IT/
+src/app/locale/it_IT/template/email/*               app/locale/it_IT/template/email/
+src/app/locale/it_IT/template/email/sales/*         app/locale/it_IT/template/email/sales/
