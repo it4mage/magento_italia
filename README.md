@@ -23,33 +23,33 @@ Installation Instructions
 -------------------------
 Installation is possible in two different ways.
 
-**Composer and [Magento Composer Installer](https://github.com/magento-hackathon/magento-composer-installer) (preferred way)**
+**Preferred way: Composer and [Magento Composer Installer](https://github.com/magento-hackathon/magento-composer-installer)**
 
 Add the dependency to your `composer.json` file. Like this example:
-```
-{
-    ...
-    "require": {
+
+    {
         ...
-        "pug-more/magento-italian-extension": "dev-master"
-    },
-    ...
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://packages.firegento.com"
+        "require": {
+            ...
+            "pug-more/magento-italian-extension": "dev-master"
         },
         ...
-        {
-            "type": "vcs",
-            "url":  "git@github.com:pug-more/magento_italia.git"
-        }
-    ]
-}
-```
+        "repositories": [
+            {
+                "type": "composer",
+                "url": "http://packages.firegento.com"
+            },
+            ...
+            {
+                "type": "vcs",
+                "url":  "git@github.com:pug-more/magento_italia.git"
+            }
+        ]
+    }
+    
 And then install the new dependency with `composer update pug-more/magento-italian-extension`.
 
-**[Modman](https://github.com/colinmollenhour/modman)**
+**Alternative way: [Modman](https://github.com/colinmollenhour/modman)**
 
 Run `modman clone git@github.com:pug-more/magento_italia.git`.
 
@@ -61,24 +61,21 @@ If you have any issues with this extension, open an issue on [GitHub](https://gi
 Contribution
 ------------
 Any contribution is highly appreciated.
-You can fork the repository at https://github.com/pug-more/magento_italia and use your own fork in your project (see [Composer documentation](https://getcomposer.org/doc/05-repositories.md#loading-a-package-from-a-vcs-repository) for this).
+You can fork [the repository](https://github.com/pug-more/magento_italia) and use your own fork in your project (see [Composer documentation](https://getcomposer.org/doc/05-repositories.md#loading-a-package-from-a-vcs-repository) for this).
 When you're ready to submit your changes open a [pull request on GitHub](https://help.github.com/articles/using-pull-requests) with your fork.
-Please do it (especially for translations) so we can all take advantage of open source community work.
+Please do it (especially for translations), so we can all take advantage of open source community work.
 
 Developers
 ----------
-Francesco Marangi  
-[@fmarangi](https://twitter.com/fmarangi)
+Francesco Marangi ([@fmarangi](https://twitter.com/fmarangi))
 
-Alessandro Ronchi   
-[@aleron75](https://twitter.com/aleron75)
+Alessandro Ronchi ([@aleron75](https://twitter.com/aleron75))
 
-Manuele Menozzi
-[@mmenozzi](https://twitter.com/mmenozzi)
+Manuele Menozzi ([@mmenozzi](https://twitter.com/mmenozzi))
 
 License
 -------
-[The MIT License](http://opensource.org/licenses/MIT)
+[The OSL-3.0 License](http://opensource.org/licenses/OSL-3.0)
 
 Copyright
 ---------
