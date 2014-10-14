@@ -1,5 +1,5 @@
 src/app/etc/modules/PugMoRe_Italia.xml              app/etc/modules/PugMoRe_Italia.xml
-src/app/code/community/PugMoRe/Italia/              app/code/community/PugMoRe/Italia/
+src/app/code/community/PugMoRe/Italia              app/code/community/PugMoRe/Italia
 
 src/app/locale/it_IT/Mage_AdminNotification.csv      app/locale/it_IT/Mage_AdminNotification.csv
 src/app/locale/it_IT/Mage_Adminhtml.csv              app/locale/it_IT/Mage_Adminhtml.csv
