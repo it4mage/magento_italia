@@ -205,6 +205,7 @@
 "Path ""%value%"" is not available and cannot be used.","Il percorso ""%value%"" non è disponibile e non può essere utilizzato."
 "Path ""%value%"" is protected and cannot be used.","Il percorso ""%value%"" è protetto e non può essere utilizzato."
 "Path ""%value%"" may not include parent directory traversal (""../"", ""..\\).""","Il percorso ""%value%"" non può includere l\'attraversamento di directory genitore (""../"", ""..\\)."""
+"Place Order","Invia Ordine"
 "Please define flag code.","Definire il codice flag."
 "Please enter 6 or more characters. Leading or trailing spaces will be ignored.","Inserire 6 o più caratteri. Gli spazi iniziali o finali saranno ignorati."
 "Please enter 7 or more characters. Password should contain both numeric and alphabetic characters.","Inserire 7 o più caratteri. La password dovrebbe contenere sia caratteri numerici che alfabetici."
