@@ -137,8 +137,5 @@
       ["./src/app/locale/it_IT/Mage_Paypal.csv", "./app/locale/it_IT/Mage_Paypal.csv"],
       ["./src/app/code/community/PugMoRe/Italia", "./app/code/community/PugMoRe/Italia"]
     ]
-  },
-  "config": {
-    "preferred-install": "dist"
   }
 }
