@@ -59,7 +59,7 @@
 "Checkout with Multiple Addresses","Checkout con indirizzi multipli"
 "City","Città"
 "Clear Shopping Cart","Svuota il carrello"
-"Click <a href=""%s"" onclick=""this.target='_blank'"">here to print</a> a copy of your order confirmation.","Premi <a href=""%s"" >qui</a> per stampare una copia della conferma dell'ordine."
+"Click <a href=""%s"" onclick=""this.target='_blank'"">here to print</a> a copy of your order confirmation.","Premi <a href=""%s"" onclick=""this.target='_blank'"">qui</a> per stampare una copia della conferma dell'ordine."
 "Click <a href=""%s"">here</a> to continue shopping.","Clicca <a href=""%s"">qui</a> per continuare l'acquisto."
 "Close","Chiuso"
 "Company","Società"
