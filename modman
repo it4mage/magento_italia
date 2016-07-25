@@ -69,6 +69,8 @@ src/app/locale/it_IT/Mage_XmlConnect.csv             app/locale/it_IT/Mage_XmlCo
 src/app/locale/it_IT/Phoenix_BankPayment.csv         app/locale/it_IT/Phoenix_BankPayment.csv
 src/app/locale/it_IT/Phoenix_Moneybookers.csv        app/locale/it_IT/Phoenix_Moneybookers.csv
 
+src/app/locale/it_IT/template/email/html/header.html                         app/locale/it_IT/template/email/html/header.html
+src/app/locale/it_IT/template/email/html/footer.html                         app/locale/it_IT/template/email/html/footer.html
 src/app/locale/it_IT/template/email/account_new.html                         app/locale/it_IT/template/email/account_new.html
 src/app/locale/it_IT/template/email/account_new_confirmation.html            app/locale/it_IT/template/email/account_new_confirmation.html
 src/app/locale/it_IT/template/email/account_new_confirmed.html               app/locale/it_IT/template/email/account_new_confirmed.html
