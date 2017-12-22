@@ -1,6 +1,6 @@
 it4mage Italy Setup
 =====================
-Italian localization for Magento.
+Italian localization for Magento 1.x.
 
 
 Description
