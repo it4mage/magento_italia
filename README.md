@@ -1,4 +1,4 @@
-PUG MoRE Italy Setup
+it4mage Italy Setup
 =====================
 Italian localization for Magento.
 
