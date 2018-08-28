@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <It4mage_Italia>
+            <version>1.0.2</version>
+        </It4mage_Italia>
+    </modules>
+    <global>
+        <resources>
+            <it4mage_italia_setup>
+                <setup>
+                    <module>It4mage_Italia</module>
+                </setup>
+            </it4mage_italia_setup>
+        </resources>
+    </global>
+</config>
