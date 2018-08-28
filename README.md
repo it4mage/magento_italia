@@ -60,4 +60,4 @@ Manuele Menozzi ([@mmenozzi](https://twitter.com/mmenozzi))
 
 License
 -------
-[The OSL-3.0 License](http://opensource.org/licenses/OSL-3.0)
+This library is under the MIT license. See the complete license in the LICENSE file.
