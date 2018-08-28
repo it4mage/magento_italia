@@ -24,12 +24,17 @@ THE SOFTWARE.
 -->
 <config>
     <modules>
-        <PugMoRe_Italia>
-            <active>true</active>
-            <codePool>community</codePool>
-            <depends>
-                <Mage_Directory />
-            </depends>
-        </PugMoRe_Italia>
+        <It4mage_Italia>
+            <version>1.0.2</version>
+        </It4mage_Italia>
     </modules>
+    <global>
+        <resources>
+            <it4mage_italia_setup>
+                <setup>
+                    <module>It4mage_Italia</module>
+                </setup>
+            </it4mage_italia_setup>
+        </resources>
+    </global>
 </config>
