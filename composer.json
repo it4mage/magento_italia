@@ -25,7 +25,7 @@
     "magento-root-dir": "./",
     "magento-deploystrategy": "copy",
     "map": [
-      ["./src/app/etc/modules/PugMoRe_Italia.xml", "./app/etc/modules/PugMoRe_Italia.xml"],
+      ["./src/app/etc/modules/It4mage_Italia.xml", "./app/etc/modules/It4mage_Italia.xml"],
       ["./src/app/locale/it_IT/Mage_Api.csv", "./app/locale/it_IT/Mage_Api.csv"],
       ["./src/app/locale/it_IT/Mage_Usa.csv", "./app/locale/it_IT/Mage_Usa.csv"],
       ["./src/app/locale/it_IT/Mage_Eav.csv", "./app/locale/it_IT/Mage_Eav.csv"],
@@ -133,7 +133,7 @@
       ["./src/app/locale/it_IT/Mage_Backup.csv", "./app/locale/it_IT/Mage_Backup.csv"],
       ["./src/app/locale/it_IT/Mage_Customer.csv", "./app/locale/it_IT/Mage_Customer.csv"],
       ["./src/app/locale/it_IT/Mage_Paypal.csv", "./app/locale/it_IT/Mage_Paypal.csv"],
-      ["./src/app/code/community/PugMoRe/Italia", "./app/code/community/PugMoRe/Italia"]
+      ["./src/app/code/community/It4mage/Italia", "./app/code/community/It4mage/Italia"]
     ]
   }
 }
